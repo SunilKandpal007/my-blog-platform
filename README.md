@@ -26,3 +26,6 @@ Live demo:
 - Add search functionality.
 - Implement categories and pagination.
 - Add user authentication simulation.
+
+- 
+<img width="1339" height="769" alt="screenshot" src="https://github.com/user-attachments/assets/ee10348f-6eba-4c88-9805-5c8299b31596" />
