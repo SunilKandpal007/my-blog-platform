@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog_Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header_section -->
+    <header>
+        <h1>My Personal Blog</h1>
+        <button id="new-post-btn">Create New Post</button>
+    </header>
+
+    <section id="post-form">
+        <h2 id="form-title">New Post</h2>
+        <form>
+            <input type="text" id="post-title" placeholder="Title" required>
+            <textarea id="post-content" placeholder="Content"></textarea>
+            <input type="text" id="post-author" placeholder="Author" required>
+            <button type="submit" id="save-post">Save</button>
+            <button type="button" id="cancel-post">Cancel</button>
+            <input type="hidden" id="edit-id">
+        </form>
+    </section>
+
+    <section id="post-list">
+        <h2>Blog Posts</h2>
+        <div id="posts-container"></div>
+    </section>
+
+    <section id="single-post" style="display: none;">
+        <h2 id="single-title"></h2>
+        <p id="single-content"></p>
+        <p id="single-author"></p>
+        <p id="single-date"></p>
+        <button id="back-to-list"></button>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
